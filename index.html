@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A classic interactive Tic-Tac-Toe web game featuring two-player mode, responsive design, win highlighting, and keyboard accessibility.">
+    <title>Tic Tac Toe</title>
+
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="wrapper">
+        <h1 class="sr-only">Tic Tac Toe Game</h1>
+
+        <div class="game-info" role="status" aria-live="polite" aria-atomic="true">Current Player - X</div>
+
+        <div class="tic-tac-toe" role="grid" aria-label="Tic Tac Toe Board">
+            <button class="box box1" data-index="0" role="gridcell" aria-label="Square 1, empty" type="button"></button>
+            <button class="box box2" data-index="1" role="gridcell" aria-label="Square 2, empty" type="button"></button>
+            <button class="box box3" data-index="2" role="gridcell" aria-label="Square 3, empty" type="button"></button>
+            <button class="box box4" data-index="3" role="gridcell" aria-label="Square 4, empty" type="button"></button>
+            <button class="box box5" data-index="4" role="gridcell" aria-label="Square 5, empty" type="button"></button>
+            <button class="box box6" data-index="5" role="gridcell" aria-label="Square 6, empty" type="button"></button>
+            <button class="box box7" data-index="6" role="gridcell" aria-label="Square 7, empty" type="button"></button>
+            <button class="box box8" data-index="7" role="gridcell" aria-label="Square 8, empty" type="button"></button>
+            <button class="box box9" data-index="8" role="gridcell" aria-label="Square 9, empty" type="button"></button>
+        </div>
+
+        <button class="btn" type="button">New Game</button>
+    </main>
+
+    <script type="module" src="index.js"></script>
+</body>
+</html>

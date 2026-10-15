@@ -1,0 +1,30 @@
+{
+  "name": "tic-tac-toe",
+  "version": "1.0.0",
+  "description": "A modern, interactive, and fully responsive Tic-Tac-Toe web application built with HTML5, CSS3, and JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run --config vitest.config.mjs",
+    "test:watch": "vitest --config vitest.config.mjs"
+  },
+  "keywords": [
+    "tic-tac-toe",
+    "game",
+    "javascript",
+    "html5",
+    "css3",
+    "glassmorphism",
+    "responsive"
+  ],
+  "author": "Ankur9761",
+  "license": "MIT",
+  "devDependencies": {
+    "jsdom": "^29.1.1",
+    "vite": "^8.3.4",
+    "vitest": "^5.0.4"
+  }
+}
